@@ -7,7 +7,7 @@ const BannerHome = () => {
     const bannerData = useSelector(state => state.movieoData.bannerData)
     const imageURL = useSelector(state => state.movieoData.imageURL)
     const [currentImage,setCurrentImage] = useState(0)
-
+console.log(bannerData)
     const handleNext = ()=>{
         if(currentImage < bannerData.length - 1){
             setCurrentImage(preve => preve + 1)
