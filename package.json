@@ -7,7 +7,7 @@
     "dev": "npx vite",
     "build": "npx install",
     "lint": "eslint .",
-    "start": "npm run start",
+    "start": "vite preview --host 0.0.0.0 --port $PORT",
     "preview": "npx vite preview"
   },
   "engines": {
